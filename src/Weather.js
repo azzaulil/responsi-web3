@@ -51,7 +51,7 @@ componentDidMount() {
                   return (
                       <div>                    
                         <tr>
-                          <td>{dateTime}</td>
+                          <th>{dateTime}</th>
                           <td>{tempX}</td>
                           <td>{tempMin}</td>
                           <td>{tempMax}</td>
