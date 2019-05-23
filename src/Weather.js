@@ -48,16 +48,14 @@ componentDidMount() {
         {
           items.length > 0 ? items.map(item => {
                   const {dateTime, tempX,tempMin,tempMax, weather} = item;
-                  return (
-                      <div>                    
+                  return (                 
                         <tr>
                           <th>{dateTime}</th>
                           <td>{tempX}</td>
                           <td>{tempMin}</td>
                           <td>{tempMax}</td>
                           <td>{weather}</td>
-                        </tr> 
-                      </div>
+                        </tr>
                     );
                 }) : null
             }
